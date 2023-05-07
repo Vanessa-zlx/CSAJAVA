@@ -122,7 +122,6 @@ public class Main {
                     c=strs[0].charAt(count);
                 }
                 if (count>=strs[i].length()||strs[i].charAt(count)!=c){
-//                    System.out.println(c+":"+strs[i].charAt(count));
                     flag=false;
                     break;
                 }
