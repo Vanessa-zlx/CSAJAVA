@@ -52,7 +52,7 @@ public class Main {
         }else{
             System.out.println("输出：\""+result+"\"");
         }
-        System.out.println();
+        System.out.println( );
         String[] strs2={"f1ower","f1ow","f1ight"};
         System.out.println("输入：str="+Arrays.toString(strs1));
         result = longestCommonPrefix(strs2);
