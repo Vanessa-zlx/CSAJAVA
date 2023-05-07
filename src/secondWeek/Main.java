@@ -74,7 +74,6 @@ public class Main {
         for (int i = b.length() - 1; i >= 0; --i) {
             lb.add(b.charAt(i) - '0');
         }
-        //TODO:在此处编写符合要求的代码，并在主类中编写测试代码
         int length = Math.max(a.length(), b.length()) + 1;
         int carry = 0;
         StringBuilder builder = new StringBuilder();
